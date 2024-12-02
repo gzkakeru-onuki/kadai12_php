@@ -7,6 +7,19 @@ function h($str){
 //dbせつぞく
 function db_conn(){
     
+
+    // try {
+    //     $db_name = "pioneer-mind_nikinabi";  // データベース名
+    //     $db_id   = "pioneer-mind_nikinabi"; // アカウント名
+    //     $db_pw   = "Ka12183002";           // パスワード
+    //     $db_host = "mysql80.pioneer-mind.sakura.ne.jp"; // DBホスト
+    //     return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host, $db_id, $db_pw);
+    // } catch (PDOException $e) {
+    //     exit('DB Connection Error:'.$e->getMessage());
+    // }
+
+
+
     try {
         $db_name = "Nikinabi";  // データベース名
         $db_id   = "root"; // アカウント名

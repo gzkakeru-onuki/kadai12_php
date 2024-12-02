@@ -139,7 +139,7 @@ body {
 }
 
 .randomcompany {
-    height: 380px;
+    height: 400px;
     margin: 5px 10px;
     background-color: #ffffff;
     border-radius: 18px;
@@ -166,7 +166,7 @@ body {
 }
 
 .contentcompany {
-    height: 500px;
+    height: 550px;
     margin: 20px 10px;
     background-color: #ffffff;
     border-radius: 18px;
@@ -209,6 +209,11 @@ body {
     overflow: auto;
 }
 
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .recommend-title {
     text-align: center;
     font-size: 30px;
@@ -228,7 +233,6 @@ body {
 
 .randomcompany {
     flex: 0 0 33.333%; /* 各スライドの幅を設定 */
-    text-align: center;
     padding: 10px;
     box-sizing: border-box;
 }

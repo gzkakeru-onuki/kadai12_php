@@ -135,6 +135,7 @@ $values =  $stmt->fetchAll(PDO::FETCH_ASSOC); //PDO::FETCH_ASSOC[カラム名の
                             <p class="location"><?= $value["location"]; ?></p>
                         </div>
                         <p class="title"><?= $value["title"]; ?></p>
+                        <p class="description"><?= $value["description"]; ?></p>
                         <p class="companyname"><?= $value["name"]; ?></p>
                         <button><a href="https://www.wantedly.com/companies/dhw">詳細を見る</a></button>
                     </div>
