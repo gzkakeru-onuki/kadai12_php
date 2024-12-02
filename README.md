@@ -7,8 +7,13 @@
 課題作成時にデザインの講義があったため、どのようにすれば見やすいのかなどを考えて作成してみましたが、
 色々と時間及ばず、中途半端になり選手権もあるため途中で切り上げた。そんな作品です。無念。
 
-## ③アプリのデプロイURL
 
+求人情報を登録したい場合は以下リンクにて登録可能です。
+求人情報登録用リンク
+https://pioneer-mind.sakura.ne.jp/NikiNabi/php/insertCompanyForm.php
+
+## ③アプリのデプロイURL
+https://pioneer-mind.sakura.ne.jp/NikiNabi/php/
 
 ## ④アプリのログイン用IDまたはPassword（ある場合）
 ご自身で作成していただけます。
