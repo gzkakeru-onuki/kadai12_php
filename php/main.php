@@ -123,10 +123,10 @@ $values =  $stmt->fetchAll(PDO::FETCH_ASSOC); //PDO::FETCH_ASSOC[カラム名の
             </div>
             <div class="content">
 
+                <div class="count">
+                    <h2><?= count($values); ?>件の募集</h2>
+                </div>
                 <?php foreach ($values as $value) { ?>
-                    <div class="count">
-                        <h2><?= count($values); ?>件の募集</h2>
-                    </div>
                     <div class="contentcompany">
                         <img src="<?= $value["image_path"]; ?>" alt="companyimg">
                         <div class="categorylabel">
