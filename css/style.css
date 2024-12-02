@@ -1,0 +1,79 @@
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    color:rgb(94, 143, 192);
+}
+
+body {
+    background-color: rgb(240, 244, 246);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(90, 100, 110);
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    mix-blend-mode: multiply;
+    position: fixed;
+    top: 10%;
+}
+
+input {
+    width: 200px;
+    text-align: left;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.main-head {
+    position: fixed;
+    top: 35%;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.main-description {
+    font-size:30px;
+}
+
+.border {
+    writing-mode: vertical-rl;
+    position: fixed;
+    border-right: 2px solid slategray;
+    top: 35%;
+    left: 60%;    
+}
+
+.create-account {
+    position: fixed;
+    top: 40%;
+    left: 65%;
+}
+
+.nextBtn {
+    background-color: rgb(189, 179, 179);
+    position: fixed;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    top: 43%;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nextBtn:hover{
+    background-color: rgb(203, 241, 237);
+}
+
+.login-link {
+    margin-top: 10px;
+}

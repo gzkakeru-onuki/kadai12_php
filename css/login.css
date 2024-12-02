@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(240, 244, 246);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(90, 100, 110);
+}
+
+.link {
+    color: #21c2c2;;
+}
+
+.container {
+    text-align: center;
+}
+
+.head {
+    margin-top: 10px;
+}
+
+span {
+    color: rgb(243 185 10);
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.form-container {
+    border: 1px solid slategray;
+    width: 300px;
+    padding: 90px;
+    margin: 10px auto;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.form-input {
+    width: 300px;
+    margin: 20px auto;
+}
+
+form input {
+    width: 100%;
+}
+
+form select{
+    width: 100%;
+    height: 30px;
+}
+
+form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.submitBtn {
+    width: 100%; /* 入力欄を全幅に設定 */
+    max-width: 300px; /* 入力欄の最大幅を指定 */
+    padding: 8px; /* 入力欄の内側余白 */
+    font-size: 13px; /* 入力欄のフォントサイズ */
+    border: 1px solid #ccc; /* 入力欄のボーダー */
+    border-radius: 4px; /* 角丸 */
+    background-color: rgb(17 241 218);
+}
+
+.submitBtn:hover{
+    background-color: rgb(84 154 147);
+}
+
+.login {
+    margin-top:50px;
+}
